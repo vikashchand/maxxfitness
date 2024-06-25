@@ -24,9 +24,7 @@ const Navbar = () => {
         <a href="#testimonial"><li>Testimonials</li></a>
         <a href="#contact"><li>Contact Us</li></a>
       </ul>
-      <div className="buttons">
-        <button className="button">admin</button>
-      </div>
+     
       <div className="hidden">
         {menu ? (
           <i onClick={navbar} class="fa-solid fa-xmark"></i>
