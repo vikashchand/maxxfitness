@@ -1,0 +1,70 @@
+/* make variables */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --lightgray: #D9D9D9;
+  --gray: #9c9c9c;
+  --button : #080601;
+  --orange: #080501;
+  --darkGrey: #eb3062;
+  --caloryCard: #656565;
+  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ea376d 100.75%);
+  --appColor:  #d12945;
+}
+
+.App {
+  background-color: var(--appColor);
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  overflow-x: hidden;
+  /* overflow: hidden; */
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.stroke{
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  color: transparent;
+  font-family: 'Finlandica', sans-serif;
+}
+.but{
+  padding: 10px 25px;
+  background: var(--orange);
+  border: 1px solid var(--orange) !important;
+  color: white;
+  transition: 0.8s ease;
+  font-size: 15px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  border: 2px solid white !important;
+}
+.but:hover{
+  background: white;
+  color: var(--orange);
+}
+.button {
+  background: linear-gradient(180deg, #150303 26.71%, #411747 99.36%);
+  box-shadow: 0px 20px 24px 3px rgba(27, 17, 4, 0.42);
+  border-radius: 34px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 11px 20px;
+  width: 80px;
+  font-weight: bold;
+}
+
+
+.button:hover {
+  background: white;
+  cursor: pointer;
+  border: 1px solid var(--button);
+  color: var(--button);
+}

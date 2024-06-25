@@ -1,0 +1,54 @@
+.images{
+    display: flex;
+}
+.images img{
+    width: 100%;
+}
+.part-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+.first-img{
+    width: 250px !important;
+    height: 500px !important;
+}
+.line{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.line img{
+    width: 30px;
+}
+.line p{
+    margin-top: 10px;
+}
+.brands{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.head{
+    font-weight: bold;
+    color: white;
+    font-size: 3rem !important;
+}
+
+
+@media (max-width: 1450px) {
+    .first-img{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .right-w{
+        margin-top: 40px;
+    }
+}
+@media (max-width: 620px) {
+    .head{
+        font-size: 1.5rem !important;
+    }
+}

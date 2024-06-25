@@ -1,0 +1,53 @@
+.footer hr{
+    height: 3px;
+    border-radius: 10px;
+    background: var(--button);
+    margin-bottom: 100px;
+}
+.footer img{
+    width: 40px;
+    cursor: pointer;
+}
+.flex{
+    gap: 55px;
+    margin-bottom: 100px;
+}
+
+.footer {
+    text-align: center;
+    font-size: 24px;
+    color: #020000;
+    padding-top: 20px;
+    font-weight: 800;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .footer-info {
+    text-align: left;
+  }
+  
+  .social-icons {
+    display: flex;
+  }
+  
+  .social-icons .icon {
+    font-size: 24px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .social-icons .icon:hover {
+    transform: scale(1.2);
+  }
+  
+  .phone-icon {
+    color: #020e19; /* Phone icon color */
+  }
+  
+  
