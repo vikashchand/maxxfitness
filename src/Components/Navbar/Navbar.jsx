@@ -33,14 +33,14 @@ const Navbar = () => {
         )}
       </div>
       {menu ? (
-        <div className="show-nav mt-3">
+        <div className="show-nav mt-3 btn">
           <ul>
-            <li>Home</li>
-            <li>Programs</li>
-            <li>Why us</li>
-     
-            <li>Testimonial</li>
-            <li>Contact Us</li>
+          <a href="#home"><li>Home</li></a>
+          <a href="#programs"><li>Programs</li></a>
+          <a href="#why"><li>Why us</li></a>
+        
+          <a href="#testimonial"><li>Testimonials</li></a>
+          <a href="#contact"><li>Contact Us</li></a>
           </ul>
         </div>
       ) : (

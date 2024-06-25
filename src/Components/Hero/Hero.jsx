@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div id='home' className="row m-0 text-white pl-1">
       <div className="left-h mt-5 col-lg-9 col-xlg-9 col-md-12 col-sm-12 col-12">
-        <div className="bp">
+        <div className="bp"  data-aos='slide-right'>
         <i class="fa-solid fa-dumbbell"></i>
           <span>Trained</span>
           <p>3000+ clients</p>
@@ -30,6 +30,7 @@ const Hero = () => {
         <p className="mt-3">
         Get in shape with MAX FITNESS's state-of-the-art equipment and tailored fitness programs. Your ideal body awaits!
         </p>
+        <br></br>
         <div className="count mt-5 d-flex">
           <div className="mr-5 d-flex flex-column justify-content-center align-items-center">
             <span className="number">
