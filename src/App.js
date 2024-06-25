@@ -9,6 +9,7 @@ import Testimonial from './Components/Testimonial/Testimonial';
 import Why from './Components/Why/Why';
 
 function App() {
+
   return (
     <div className="App">
       <Navbar/>
